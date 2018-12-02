@@ -11,6 +11,7 @@ html {
   text-size-adjust: 100%;
   box-sizing: border-box;
   font-family: "Londrina Solid", serif;
+  line-height: 1.2;
 }
 
 *, *::before, *::after {
@@ -19,12 +20,16 @@ html {
 
 body {
   margin: 0;
+  align-items: center;
 }
 
-.banner {
+.header {
   position: relative;
   max-height: 250px;
   overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .img-flex {
@@ -32,7 +37,7 @@ body {
   width: 100%;
 }
 
-.banner-content {
+.header-content {
   display: flex;
   position: absolute;
   width: 100%;
@@ -43,15 +48,17 @@ body {
   font-size: 1.5rem;
 }
 
-.logo {
-  width: 32%;
+.logo-icon {
+  width: 40px;
   margin: 0 1rem;
+  display: none;
 }
 
-h2 {
+h1 {
   font-size: 3rem;
   margin: 0;
   display: block;
-  line-height: 1.2;
-  max-width: 6em;
+  max-width: 10em;
+  text-align: center;
+  color: pink;
 }
