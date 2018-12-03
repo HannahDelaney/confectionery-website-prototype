@@ -62,3 +62,87 @@ h1 {
   text-align: center;
   color: pink;
 }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  padding: .5em .75em;
+  color: pink;
+  background-color: brown;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: pink;
+  color: brown;
+}
+
+.welcome-big p {
+  font-size: 1.75em;
+  padding: .5rem 1rem 0;
+  text-align: center;
+  margin: .5rem;
+}
+
+.welcome {
+  padding: 0 1rem;
+  text-align: center;
+  font-family: Oswald, sans-serif;
+}
+
+h2 {
+  padding-left: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+.cards {
+  list-style-type: none;
+  padding: 1rem;
+  margin: 0;
+}
+
+.card {
+  display: block;
+}
+
+.card-img {
+  padding: 0;
+}
+
+.card-img img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card-body {
+  padding: 0 .5rem;
+}
+
+.card-body h3 {
+  font-weight: normal;
+  margin: .5rem 0 0;
+}
+
+.card-body p {
+  margin: 0 0 1.3rem;
+  font-family: Oswald, sans-serif;
+}
+
+.card:nth-child(4) {
+  display: none;
+}
+
+.card:nth-child(5) {
+  display: none;
+}
