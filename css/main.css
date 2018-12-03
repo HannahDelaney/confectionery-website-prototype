@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 0 2rem;
   align-items: center;
 }
 
@@ -103,6 +103,7 @@ h2 {
   padding-left: 1rem;
   text-align: center;
   margin: 0;
+  color: brown;
 }
 
 .cards {
@@ -132,6 +133,7 @@ h2 {
 .card-body h3 {
   font-weight: normal;
   margin: .5rem 0 0;
+  color: brown;
 }
 
 .card-body p {
@@ -154,15 +156,116 @@ h2 {
 
 .location {
   padding: 0;
+  border-top: 4px solid brown;
+  border-bottom: 4px solid brown;
 }
 
 .location figcaption {
   padding: 1rem;
   font-size: 1.5rem;
+  color: brown;
 }
 
 .location p {
   font-family: Oswald, sans-serif;
-  padding: 0 1rem;
+  padding: 0 1rem 1rem;
   margin: 0;
 }
+
+.founder-card {
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+.founder-card-head {
+  position: relative;
+}
+
+.founder-card-title {
+  margin: 0;
+  padding: .3rem 1rem;
+  position: relative;
+  width: 100%;
+  color: brown;
+  font-size: 1.5rem;
+}
+
+.founder-card-label {
+  padding: .3rem 1rem .3rem calc(1rem - 4px);
+  border-left: 4px solid brown;
+  background-color: rgba(255, 255, 255, .6);
+  position: absolute;
+  bottom: 0;
+}
+
+.founder-card-body {
+  padding: .2rem 1rem;
+  font-family: Oswald, sans-serif;
+}
+
+.founder-card-body p {
+  margin-bottom: 0;
+}
+
+.history-card {
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+.history-card-head {
+  position: relative;
+}
+
+.history-card-title {
+  margin: 0;
+  padding: .3rem 1rem;
+  position: relative;
+  width: 100%;
+  color: brown;
+  font-size: 1.5rem;
+}
+
+.history-card-label {
+  padding: .3rem 1rem .3rem calc(1rem - 4px);
+  border-left: 4px solid brown;
+  background-color: rgba(255, 255, 255, .6);
+  position: absolute;
+  bottom: 0;
+}
+
+.history-card-body {
+  padding: .2rem 1rem;
+  font-family: Oswald, sans-serif;
+}
+
+
+
+
+/* Our Founder for Larger screensize
+
+.founder-card {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 0 6px 6px;
+  margin-top: 1rem;
+}
+
+.founder-card-title {
+  margin: 0;
+  padding: .3rem 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: pink;
+  font-size: 1.5rem;
+}
+
+.founder-card-label {
+  padding: .3rem 1rem .3rem calc(1rem - 4px);
+  border-left: 4px solid brown;
+  background-color: rgba(255, 255, 255, .6);
+  position: absolute;
+  left: 0;
+  top: 0;
+} */
