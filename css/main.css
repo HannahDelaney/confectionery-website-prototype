@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  margin: 0 0 2rem;
+  margin: 0;
   align-items: center;
 }
 
@@ -61,6 +61,7 @@ h1 {
   max-width: 10em;
   text-align: center;
   color: pink;
+  background-color: rgba(0, 0, 0, .3);
 }
 
 nav ul {
@@ -175,6 +176,7 @@ h2 {
 .founder-card {
   overflow: hidden;
   margin-top: 1rem;
+  background-color: pink;
 }
 
 .founder-card-head {
@@ -184,7 +186,8 @@ h2 {
 .founder-card-title {
   margin: 0;
   padding: .3rem 1rem;
-  position: relative;
+  position: absolute;
+  bottom: -2.5rem;
   width: 100%;
   color: brown;
   font-size: 1.5rem;
@@ -199,17 +202,20 @@ h2 {
 }
 
 .founder-card-body {
-  padding: .2rem 1rem;
   font-family: Oswald, sans-serif;
+  padding: .2rem 1rem;
+  margin-top: 1rem;
 }
 
 .founder-card-body p {
+  padding-bottom: 1rem;
   margin-bottom: 0;
 }
 
 .history-card {
   overflow: hidden;
   margin-top: 1rem;
+  background-color: pink;
 }
 
 .history-card-head {
@@ -219,7 +225,8 @@ h2 {
 .history-card-title {
   margin: 0;
   padding: .3rem 1rem;
-  position: relative;
+  position: absolute;
+  bottom: -2.5rem;
   width: 100%;
   color: brown;
   font-size: 1.5rem;
@@ -234,9 +241,119 @@ h2 {
 }
 
 .history-card-body {
-  padding: .2rem 1rem;
   font-family: Oswald, sans-serif;
+  padding: .2rem 1rem;
+  margin-top: 1rem;
 }
+
+.reviews {
+  margin: 1rem 0;
+}
+
+.review-cards {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.review-card {
+  display: block;
+}
+
+.review-card-img {
+  padding: .5rem 1.3rem .3rem;
+}
+
+.review-card-img img {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.review-card-body {
+  padding: 0 .5rem;
+}
+
+.review-card-body h2 {
+  font-weight: normal;
+  margin: .5rem 0 0;
+}
+
+.review-card-body p {
+  margin: 0 0 1.3rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: .5rem 0;
+  background-color: brown;
+  border-top: 3px solid #000
+}
+
+.footer h3 {
+  margin: 0 auto;
+  color: #000;
+}
+
+.social {
+  margin: 0 auto;
+  padding: 1rem 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.social li {
+  margin: 0 .5em;
+  max-width: 40px;
+  justify-content: space-around;
+}
+
+.footer h4 {
+  color: #000;
+  margin: 0;
+  padding: .75rem 0 0 .75rem;
+}
+
+.footer ul {
+  padding-left: 0;
+}
+
+.footer a {
+  color: #000;
+  background-color: brown;
+  text-align: left;
+}
+
+.links ul {
+  padding: 0 1rem;
+  color: pink;
+}
+
+.copyright {
+  font-family: Oswald, sans-serif;
+  padding: .5rem 1rem 0;
+  width: 100%;
+}
+
+.links a:hover {
+  background-color: brown;
+  color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
