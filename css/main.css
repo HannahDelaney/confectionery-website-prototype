@@ -154,6 +154,10 @@ h2 {
   display: none;
 }
 
+.card:nth-child(6) {
+  display: none;
+}
+
 .location img {
   width: 100%;
   display: block;
@@ -387,12 +391,6 @@ h2 {
     padding: .5em .75em;
   }
 
-  .founder-card img {
-
-  }
-
-
-
   .links ul {
     padding: 0 2rem;
     color: pink;
@@ -438,6 +436,7 @@ h2 {
 
   .link-cards {
     display: flex;
+    justify-content: space-around;
   }
 
   .founder-card {
@@ -450,11 +449,8 @@ h2 {
   .founder-card-title {
     margin: 0;
     padding: .3rem 1rem;
-    position: absolute;
-    bottom: 0;
-    left: 0;
     width: 100%;
-    color: pink;
+    color: brown;
     font-size: 1.5rem;
   }
 
@@ -480,11 +476,8 @@ h2 {
   .history-card-title {
     margin: 0;
     padding: .3rem 1rem;
-    position: absolute;
-    bottom: 0;
-    left: 0;
     width: 100%;
-    color: pink;
+    color: brown;
     font-size: 1.5rem;
   }
 
@@ -496,11 +489,6 @@ h2 {
     left: 0;
     top: 0;
     bottom: auto;
-  }
-
-  .history-card p {
-    position: absolute;
-    bottom: .4rem;
   }
 
   .review-card-img {
@@ -538,6 +526,59 @@ h2 {
     font-size: 120%;
   }
 
+  .cards {
+    margin: .25rem;
+  }
+
+  .card {
+    display: inline-block;
+    width: 33%;
+  }
+
+  .card-img {
+    width: 80%;
+  }
+
+  .card-body {
+    width: 100%;
+  }
+
+  .card:nth-child(4) {
+    display: inline-block;
+  }
+
+  .card:nth-child(5) {
+    display: inline-block;
+  }
+
+  .card:nth-child(6) {
+    display: inline-block;
+  }
+
+  .social {
+    padding: .5em;
+  }
+
+  .columns {
+    column-count: 1;
+    display: inline;
+  }
+
+  .links h4 {
+    text-align: center;
+  }
+
+  .links ul {
+    margin: 0;
+    text-align: center;
+    padding-bottom: .5em;
+  }
+
+  .links li {
+    display: inline-block;
+    padding: 0 .5em;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -547,6 +588,26 @@ h2 {
   html {
     font-size: 130%;
   }
+
+  .welcome-big p {
+    padding: 0;
+  }
+
+  .cards {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .card {
+    max-width: 229px;
+    vertical-align: middle;
+  }
+
+  .card-body {
+    font-size: .8rem;
+  }
+
+
 
 }
 
