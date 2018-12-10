@@ -200,12 +200,16 @@ h2 {
   font-size: 1.5rem;
 }
 
+.found-card-label {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
 .founder-card-label {
   padding: .3rem 1rem .3rem calc(1rem - 4px);
   border-left: 4px solid brown;
   background-color: rgba(255, 255, 255, .6);
-  position: absolute;
-  bottom: 0;
 }
 
 .founder-card-body {
@@ -239,12 +243,16 @@ h2 {
   font-size: 1.5rem;
 }
 
+.his-card-label {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
 .history-card-label {
   padding: .3rem 1rem .3rem calc(1rem - 4px);
   border-left: 4px solid brown;
   background-color: rgba(255, 255, 255, .6);
-  position: absolute;
-  bottom: 0;
 }
 
 .history-card-body {
@@ -451,10 +459,6 @@ h2 {
     padding: .3rem 1rem .3rem calc(1rem - 4px);
     border-left: 4px solid brown;
     background-color: rgba(255, 255, 255, .6);
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: auto;
   }
 
   .history-card {
@@ -478,10 +482,6 @@ h2 {
     padding: .3rem 1rem .3rem calc(1rem - 4px);
     border-left: 4px solid brown;
     background-color: rgba(255, 255, 255, .6);
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: auto;
   }
 
   .review-card-img {
@@ -644,9 +644,14 @@ h2 {
     font-size: 1.5rem;
   }
 
+  .found-card-label {
+    bottom: 0;
+    top: unset;
+    display: block;
+  }
+
   .founder-card-label {
-    top: 31em;
-    left: 0;
+    padding: .15rem 1rem;
   }
 
   .founder-card-body {
@@ -671,9 +676,14 @@ h2 {
     font-size: 1.5rem;
   }
 
+  .his-card-label {
+    bottom: 0;
+    top: unset;
+    display: block;
+  }
+
   .history-card-label {
-    top: 31em;
-    left: 0;
+    padding: .15rem 1rem;
   }
 
   .history-card-body {
